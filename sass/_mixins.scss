@@ -1,0 +1,12 @@
+//mixins
+@mixin flex($direction: column, $items: flex-start) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $items;
+}
+@mixin font-style($color: #fff, $weight: bold) {
+  color: $color;
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: $weight;
+}
